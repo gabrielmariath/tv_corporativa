@@ -1,33 +1,39 @@
 {
   "empresa": {
-    "nome": "TV Corporativa Pro",
-    "slogan": "Comunicação interna simples, moderna e eficiente",
-    "logoTexto": "TV"
+    "nome": "TV Corporativa",
+    "slogan": "Comunicação interna simples e profissional",
+    "logoTexto": "TV",
+    "clima": "24°C",
+    "local": "Ambiente corporativo"
   },
   "slides": [
     {
       "tag": "Comunicado",
       "titulo": "Bem-vindo à TV Corporativa",
-      "texto": "Uma solução moderna para exibir avisos, campanhas e informações internas em telas corporativas.",
-      "categoria": "Comunicação interna"
+      "texto": "Uma solução simples e moderna para exibir comunicados internos, campanhas e informações importantes.",
+      "categoria": "Comunicação interna",
+      "imagem": ""
     },
     {
       "tag": "RH",
       "titulo": "Avisos importantes",
-      "texto": "Use a TV corporativa para divulgar comunicados, aniversariantes, campanhas e informações para os colaboradores.",
-      "categoria": "Recursos Humanos"
+      "texto": "Divulgue comunicados, aniversariantes, campanhas internas e recados para todos os colaboradores.",
+      "categoria": "Recursos Humanos",
+      "imagem": ""
     },
     {
       "tag": "Tecnologia",
-      "titulo": "Sistema local e simples",
-      "texto": "Projeto desenvolvido com HTML, CSS, JavaScript e JSON, funcionando direto pelo GitHub Pages.",
-      "categoria": "Demonstração técnica"
+      "titulo": "Painel administrativo",
+      "texto": "O painel permite editar comunicados, avisos rápidos, aniversariantes, indicador e mensagens do rodapé.",
+      "categoria": "Demonstração técnica",
+      "imagem": ""
     },
     {
       "tag": "Produtividade",
       "titulo": "Comunicação mais eficiente",
       "texto": "Centralize informações importantes e mantenha sua equipe sempre atualizada em ambientes corporativos.",
-      "categoria": "Gestão"
+      "categoria": "Gestão",
+      "imagem": ""
     }
   ],
   "avisos": [
@@ -46,7 +52,7 @@
     "texto": "Comunicação ativa"
   },
   "ticker": [
-    "TV Corporativa Pro em funcionamento",
+    "TV Corporativa em funcionamento",
     "Projeto demonstrativo para comunicação interna",
     "Desenvolvido com HTML, CSS, JavaScript e JSON",
     "Hospedado gratuitamente no GitHub Pages"
