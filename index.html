@@ -1,86 +1,54 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>TV Corporativa Pro</title>
-
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-  <div class="app">
-
-    <header class="topbar">
-      <div class="brand">
-        <div class="logo" id="empresaLogo">TV</div>
-        <div>
-          <h1 id="empresaNome">TV Corporativa Pro</h1>
-          <p id="empresaSlogan">Comunicação interna simples, moderna e eficiente</p>
-        </div>
-      </div>
-
-      <div class="top-info">
-        <div>
-          <strong id="horaAtual">00:00</strong>
-          <span id="dataAtual">Carregando...</span>
-        </div>
-
-        <button id="btnFullscreen" class="fullscreen-btn">
-          Tela cheia
-        </button>
-      </div>
-    </header>
-
-    <main class="content">
-
-      <section class="main-slide">
-        <div class="slide-tag" id="slideTag">Comunicado</div>
-
-        <h2 id="slideTitulo">Bem-vindo à TV Corporativa</h2>
-
-        <p id="slideTexto">
-          Uma solução simples para exibir avisos, comunicados e informações internas.
-        </p>
-
-        <div class="slide-footer">
-          <span id="slideCategoria">Comunicação interna</span>
-          <span id="slideContador">1 / 1</span>
-        </div>
-      </section>
-
-      <aside class="sidebar">
-
-        <div class="panel">
-          <h3>Próximos avisos</h3>
-          <ul id="listaAvisos"></ul>
-        </div>
-
-        <div class="panel">
-          <h3>Aniversariantes</h3>
-          <ul id="listaAniversariantes"></ul>
-        </div>
-
-        <div class="panel highlight">
-          <h3>Indicador</h3>
-          <strong id="indicadorValor">100%</strong>
-          <p id="indicadorTexto">Comunicação ativa</p>
-        </div>
-
-      </aside>
-
-    </main>
-
-    <footer class="ticker">
-      <span id="tickerTexto">
-        Carregando comunicados...
-      </span>
-    </footer>
-
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+{
+  "empresa": {
+    "nome": "TV Corporativa Pro",
+    "slogan": "Comunicação interna simples, moderna e eficiente",
+    "logoTexto": "TV"
+  },
+  "slides": [
+    {
+      "tag": "Comunicado",
+      "titulo": "Bem-vindo à TV Corporativa",
+      "texto": "Uma solução moderna para exibir avisos, campanhas e informações internas em telas corporativas.",
+      "categoria": "Comunicação interna"
+    },
+    {
+      "tag": "RH",
+      "titulo": "Avisos importantes",
+      "texto": "Use a TV corporativa para divulgar comunicados, aniversariantes, campanhas e informações para os colaboradores.",
+      "categoria": "Recursos Humanos"
+    },
+    {
+      "tag": "Tecnologia",
+      "titulo": "Sistema local e simples",
+      "texto": "Projeto desenvolvido com HTML, CSS, JavaScript e JSON, funcionando direto pelo GitHub Pages.",
+      "categoria": "Demonstração técnica"
+    },
+    {
+      "tag": "Produtividade",
+      "titulo": "Comunicação mais eficiente",
+      "texto": "Centralize informações importantes e mantenha sua equipe sempre atualizada em ambientes corporativos.",
+      "categoria": "Gestão"
+    }
+  ],
+  "avisos": [
+    "Reunião geral às 15h",
+    "Campanha interna em andamento",
+    "Atualização de comunicados semanal",
+    "Mantenha seus dados cadastrais atualizados"
+  ],
+  "aniversariantes": [
+    "Ana Souza",
+    "Carlos Lima",
+    "Fernanda Rocha"
+  ],
+  "indicador": {
+    "valor": "100%",
+    "texto": "Comunicação ativa"
+  },
+  "ticker": [
+    "TV Corporativa Pro em funcionamento",
+    "Projeto demonstrativo para comunicação interna",
+    "Desenvolvido com HTML, CSS, JavaScript e JSON",
+    "Hospedado gratuitamente no GitHub Pages"
+  ]
+}
