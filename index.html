@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>TV Corporativa Pro</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" id="empresaLogo">TV</div>
+        <div>
+          <h1 id="empresaNome">TV Corporativa Pro</h1>
+          <p id="empresaSlogan">Comunicação interna simples, moderna e eficiente</p>
+        </div>
+      </div>
+
+      <div class="top-info">
+        <div>
+          <strong id="horaAtual">00:00</strong>
+          <span id="dataAtual">Carregando...</span>
+        </div>
+
+        <button id="btnFullscreen" class="fullscreen-btn">
+          Tela cheia
+        </button>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <section class="main-slide">
+        <div class="slide-tag" id="slideTag">Comunicado</div>
+
+        <h2 id="slideTitulo">Bem-vindo à TV Corporativa</h2>
+
+        <p id="slideTexto">
+          Uma solução simples para exibir avisos, comunicados e informações internas.
+        </p>
+
+        <div class="slide-footer">
+          <span id="slideCategoria">Comunicação interna</span>
+          <span id="slideContador">1 / 1</span>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+
+        <div class="panel">
+          <h3>Próximos avisos</h3>
+          <ul id="listaAvisos"></ul>
+        </div>
+
+        <div class="panel">
+          <h3>Aniversariantes</h3>
+          <ul id="listaAniversariantes"></ul>
+        </div>
+
+        <div class="panel highlight">
+          <h3>Indicador</h3>
+          <strong id="indicadorValor">100%</strong>
+          <p id="indicadorTexto">Comunicação ativa</p>
+        </div>
+
+      </aside>
+
+    </main>
+
+    <footer class="ticker">
+      <span id="tickerTexto">
+        Carregando comunicados...
+      </span>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
