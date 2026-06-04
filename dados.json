@@ -1,46 +1,54 @@
 {
-  "config": {
-    "rodape": "ID Móveis • Móveis Ilha Dourada • Comunicação Interna",
-    "senhaAdmin": "1234",
-    "logo": "/uploads/logo-id-moveis.png",
-    "banner": "/uploads/banner-1779793860422.jpg",
-    "bannerAtivo": false
+  "empresa": {
+    "nome": "TV Corporativa Pro",
+    "slogan": "Comunicação interna simples, moderna e eficiente",
+    "logoTexto": "TV"
   },
-  "avisosGrandes": [
+  "slides": [
     {
-      "texto": "📢 Reunião geral hoje às 7h no refeitório.",
-      "inicio": "",
-      "fim": ""
+      "tag": "Comunicado",
+      "titulo": "Bem-vindo à TV Corporativa",
+      "texto": "Uma solução moderna para exibir avisos, campanhas e informações internas em telas corporativas.",
+      "categoria": "Comunicação interna"
     },
     {
-      "texto": "⚠️ Uso obrigatório de EPI na área de produção.",
-      "inicio": "",
-      "fim": ""
+      "tag": "RH",
+      "titulo": "Avisos importantes",
+      "texto": "Use a TV corporativa para divulgar comunicados, aniversariantes, campanhas e informações para os colaboradores.",
+      "categoria": "Recursos Humanos"
     },
     {
-      "texto": "🎉 Parabéns aos aniversariantes do mês!",
-      "inicio": "",
-      "fim": ""
+      "tag": "Tecnologia",
+      "titulo": "Sistema local e simples",
+      "texto": "Projeto desenvolvido com HTML, CSS, JavaScript e JSON, funcionando direto pelo GitHub Pages.",
+      "categoria": "Demonstração técnica"
+    },
+    {
+      "tag": "Produtividade",
+      "titulo": "Comunicação mais eficiente",
+      "texto": "Centralize informações importantes e mantenha sua equipe sempre atualizada em ambientes corporativos.",
+      "categoria": "Gestão"
     }
   ],
-  "cardsLaterais": [
-    {
-      "titulo": "Meta do mês",
-      "texto": "Aumentar vendas em 12%"
-    },
-    {
-      "titulo": "Comunicado",
-      "texto": "Novo catálogo disponível no setor comercial."
-    },
-    {
-      "titulo": "Dica",
-      "texto": "Apresente ao cliente os diferenciais de acabamento dos móveis."
-    }
+  "avisos": [
+    "Reunião geral às 15h",
+    "Campanha interna em andamento",
+    "Atualização de comunicados semanal",
+    "Mantenha seus dados cadastrais atualizados"
   ],
   "aniversariantes": [
-    {
-      "nome": "Exemplo Colaborador",
-      "data": "14/05"
-    }
+    "Ana Souza",
+    "Carlos Lima",
+    "Fernanda Rocha"
+  ],
+  "indicador": {
+    "valor": "100%",
+    "texto": "Comunicação ativa"
+  },
+  "ticker": [
+    "TV Corporativa Pro em funcionamento",
+    "Projeto demonstrativo para comunicação interna",
+    "Desenvolvido com HTML, CSS, JavaScript e JSON",
+    "Hospedado gratuitamente no GitHub Pages"
   ]
 }
