@@ -1,0 +1,39 @@
+TV Corporativa ID Moveis - PRO
+
+RECURSOS INCLUSOS
+- Login real no painel do RH
+- Troca de logo pelo painel
+- Upload de imagem/banner
+- Aniversariantes do mes
+- Avisos com data de inicio e fim
+- Botao e tentativa de modo tela cheia
+- Backup automatico ao salvar
+- Backup manual pelo painel
+- Instalador simples para liberar firewall
+- Manual em PDF
+
+COMO RODAR
+1. Instale o Node.js LTS.
+2. Extraia esta pasta para C:\TV-Corporativa
+3. Clique duas vezes em INSTALAR.bat
+4. Clique duas vezes em INICIAR-TV.bat
+5. Abra no navegador:
+   http://localhost:3000
+
+PAINEL DO RH
+http://localhost:3000/admin
+Senha inicial: 1234
+
+USO NA REDE
+No computador servidor, veja o IPv4 com o comando ipconfig.
+Exemplo: 192.168.0.50
+
+TV: http://192.168.0.50:3000
+Painel RH: http://192.168.0.50:3000/admin
+
+ALTERAR SENHA
+Abra o arquivo dados.json e altere:
+"senhaAdmin": "1234"
+
+BACKUPS
+Os backups ficam na pasta backups.

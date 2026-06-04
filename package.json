@@ -1,0 +1,1 @@
+{"name":"tv-corporativa-idmoveis-pro","version":"2.0.0","description":"TV Corporativa local com login, painel RH, upload de logo/banner, aniversariantes e backup","main":"server.js","scripts":{"start":"node server.js"},"author":"ID Móveis","license":"MIT"}

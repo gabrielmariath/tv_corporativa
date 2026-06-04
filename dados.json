@@ -1,0 +1,46 @@
+{
+  "config": {
+    "rodape": "ID Móveis • Móveis Ilha Dourada • Comunicação Interna",
+    "senhaAdmin": "1234",
+    "logo": "/uploads/logo-id-moveis.png",
+    "banner": "/uploads/banner-1779793860422.jpg",
+    "bannerAtivo": false
+  },
+  "avisosGrandes": [
+    {
+      "texto": "📢 Reunião geral hoje às 7h no refeitório.",
+      "inicio": "",
+      "fim": ""
+    },
+    {
+      "texto": "⚠️ Uso obrigatório de EPI na área de produção.",
+      "inicio": "",
+      "fim": ""
+    },
+    {
+      "texto": "🎉 Parabéns aos aniversariantes do mês!",
+      "inicio": "",
+      "fim": ""
+    }
+  ],
+  "cardsLaterais": [
+    {
+      "titulo": "Meta do mês",
+      "texto": "Aumentar vendas em 12%"
+    },
+    {
+      "titulo": "Comunicado",
+      "texto": "Novo catálogo disponível no setor comercial."
+    },
+    {
+      "titulo": "Dica",
+      "texto": "Apresente ao cliente os diferenciais de acabamento dos móveis."
+    }
+  ],
+  "aniversariantes": [
+    {
+      "nome": "Exemplo Colaborador",
+      "data": "14/05"
+    }
+  ]
+}
