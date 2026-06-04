@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Painel RH | TV Corporativa</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+
+<body>
+
+  <header class="admin-header">
+    <div>
+      <h1>Painel RH</h1>
+      <p>Gerencie os conteúdos exibidos na TV Corporativa</p>
+    </div>
+
+    <div class="header-actions">
+      <a href="index.html" target="_blank">Abrir TV</a>
+      <button id="btnSalvar">Salvar alterações</button>
+    </div>
+  </header>
+
+  <main class="admin-layout">
+
+    <section class="admin-card">
+      <h2>Identidade da TV</h2>
+
+      <div class="form-grid">
+        <label>
+          Nome da empresa/sistema
+          <input id="empresaNome" type="text">
+        </label>
+
+        <label>
+          Texto do logo
+          <input id="empresaLogo" type="text" maxlength="4">
+        </label>
+
+        <label>
+          Slogan
+          <input id="empresaSlogan" type="text">
+        </label>
+
+        <label>
+          Clima/temperatura
+          <input id="empresaClima" type="text">
+        </label>
+
+        <label>
+          Local
+          <input id="empresaLocal" type="text">
+        </label>
+      </div>
+    </section>
+
+    <section class="admin-card">
+      <div class="section-title">
+        <div>
+          <h2>Comunicados principais</h2>
+          <p>Esses são os slides exibidos na área principal da TV.</p>
+        </div>
+
+        <button id="btnAddSlide" class="secondary">Adicionar comunicado</button>
+      </div>
+
+      <div id="slidesContainer"></div>
+    </section>
+
+    <section class="admin-grid">
+
+      <div class="admin-card">
+        <h2>Avisos rápidos</h2>
+        <p>Digite um aviso por linha.</p>
+        <textarea id="avisosTexto" rows="9"></textarea>
+      </div>
+
+      <div class="admin-card">
+        <h2>Aniversariantes</h2>
+        <p>Digite um nome por linha.</p>
+        <textarea id="aniversariantesTexto" rows="9"></textarea>
+      </div>
+
+    </section>
+
+    <section class="admin-card">
+      <h2>Indicador</h2>
+
+      <div class="form-grid">
+        <label>
+          Valor
+          <input id="indicadorValor" type="text">
+        </label>
+
+        <label>
+          Descrição
+          <input id="indicadorTexto" type="text">
+        </label>
+      </div>
+    </section>
+
+    <section class="admin-card">
+      <h2>Rodapé animado</h2>
+      <p>Digite uma mensagem por linha.</p>
+      <textarea id="tickerTexto" rows="6"></textarea>
+    </section>
+
+    <section class="admin-actions">
+      <button id="btnSalvarFinal">Salvar alterações</button>
+      <button id="btnRestaurar" class="danger">Restaurar padrão</button>
+      <button id="btnBaixar" class="secondary">Baixar JSON</button>
+    </section>
+
+  </main>
+
+  <div id="toast" class="toast">Alterações salvas com sucesso!</div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
